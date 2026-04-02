@@ -151,7 +151,7 @@ func renderTemplateDirectory(dirPath, valuesFile string, opts []harnessparser.Op
 		if renderedCount > 0 {
 			fmt.Println("---")
 		}
-		fmt.Print(output)
+		fmt.Println(output)
 		renderedCount++
 	}
 
